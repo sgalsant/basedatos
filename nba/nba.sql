@@ -494,7 +494,7 @@ CREATE TABLE estadisticas (
   Tapones_por_partido float DEFAULT NULL,
   Rebotes_por_partido float DEFAULT NULL,
   PRIMARY KEY (temporada,jugador),
-  FOREIGN KEY (jugador) REFERENCES Jugadores(Codigo)
+  FOREIGN KEY (jugador) REFERENCES jugadores(Codigo)
 );
 
 INSERT INTO estadisticas VALUES ('03/04',283,5.9,2.2,1.54,1.6);
