@@ -61,7 +61,7 @@ INSERT INTO jugadores VALUES (5,'Ryan Gomes','Providence','6-7',250,'F','Timberw
 INSERT INTO jugadores VALUES (6,'Marko Jaric','Serbia','6-7',224,'G','Timberwolves');
 INSERT INTO jugadores VALUES (7,'Al Jefferson','Prentiss Hs','6-10',265,'C-F','Timberwolves');
 INSERT INTO jugadores VALUES (8,'Mark Madsen','Stanford','6-9',250,'C-F','Timberwolves');
-INSERT INTO jugadores VALUES (9,'Rashard McCants','North Carolina','6-4',21,'G','Timberwolves');
+INSERT INTO jugadores VALUES (9,'Rashard McCants','North Carolina','6-4',227,'G','Timberwolves');
 INSERT INTO jugadores VALUES (10,'Chris Richard ','Florida','6-9',270,'F','Timberwolves');
 INSERT INTO jugadores VALUES (11,'Craig Smith','Boston College','6-8',250,'F-C','Timberwolves');
 INSERT INTO jugadores VALUES (12,'Kirk Snyder','Nevada-Reno','6-6',225,'G','Timberwolves');
