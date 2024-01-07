@@ -140,7 +140,7 @@ INSERT INTO jugadores VALUES (111,'Zach Randolph','Michigan State','6-9',260,'F'
 INSERT INTO jugadores VALUES (112,'Quentin Richardson','DePaul','6-6',235,'F-G','Knicks');
 INSERT INTO jugadores VALUES (113,'Nate Robinson','Washington','5-9',180,'G','Knicks');
 INSERT INTO jugadores VALUES (114,'Malik Rose','Drexel','6-7',255,'F','Knicks');
-INSERT INTO jugadores VALUES (120,'Louis Amundson',' Nevada-Las Vegas',' 6-9',225,'F','76ers');
+INSERT INTO jugadores VALUES (120,'Louis Amundson','Nevada-Las Vegas','6-9',225,'F','76ers');
 INSERT INTO jugadores VALUES (121,'Calvin Booth','Penn State','6-11',250,'C','76ers');
 INSERT INTO jugadores VALUES (122,'Rodney Carney','Memphis','6-7',204,'F','76ers');
 INSERT INTO jugadores VALUES (123,'Samuel Dalembert','Seton Hall','6-11',250,'C','76ers');
@@ -255,7 +255,7 @@ INSERT INTO jugadores VALUES (293,'Chris Quinn','Notre dame','6-2',175,'G','Heat
 INSERT INTO jugadores VALUES (294,'Dwyane Wade','Marquette','6-4',216,'G','Heat');
 INSERT INTO jugadores VALUES (295,'Jason Williams','Florida','6-1',180,'G','Heat');
 INSERT INTO jugadores VALUES (296,'Dorell Wright','South Kent','6-9',210,'F','Heat');
-INSERT INTO jugadores VALUES (300,'Shareef Abdur-Rahim',' California',' 6-9',245,'F','Kings');
+INSERT INTO jugadores VALUES (300,'Shareef Abdur-Rahim','California','6-9',245,'F','Kings');
 INSERT INTO jugadores VALUES (301,'Ron Artest','St.Johns','6-7',248,'F','Kings');
 INSERT INTO jugadores VALUES (302,'Quincy Douby','Rutgers','6-3',175,'G','Kings');
 INSERT INTO jugadores VALUES (303,'Francisco Garcia','Lousiville','6-7',195,'F-G','Kings');
@@ -342,7 +342,7 @@ INSERT INTO jugadores VALUES (409,'Darius Songaila','Wake Forest','6-9',248,'F',
 INSERT INTO jugadores VALUES (410,'DeShawn Stevenson','Washington Union HS','6-5',218,'G','Wizards');
 INSERT INTO jugadores VALUES (411,'Etan Thomas','Syracuse','6-10',260,'C','Wizards');
 INSERT INTO jugadores VALUES (412,'Nick Young','USC','6-6',200,'G','Wizards');
-INSERT INTO jugadores VALUES (420,'Carlos Arroyo','Florida Internationa',' 6-2',202,'G','Magic');
+INSERT INTO jugadores VALUES (420,'Carlos Arroyo','Florida Internationa','6-2',202,'G','Magic');
 INSERT INTO jugadores VALUES (421,'James Augustine','Illinois','6-10',235,'F','Magic');
 INSERT INTO jugadores VALUES (422,'Tony Battie','Texas Tech','6-11',240,'F-C','Magic');
 INSERT INTO jugadores VALUES (423,'Keith Bogans','Kentucky','6-5',215,'G-F','Magic');
