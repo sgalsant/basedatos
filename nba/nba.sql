@@ -1,3 +1,8 @@
+DROP SCHEMA IF EXISTS `nba` ;
+CREATE SCHEMA IF NOT EXISTS `nba` DEFAULT CHARACTER SET utf8mb4;
+USE `nba` ;
+
+
 CREATE TABLE equipos (
   Nombre varchar(20) NOT NULL,
   Ciudad varchar(20) DEFAULT NULL,
