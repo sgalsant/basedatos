@@ -26,10 +26,10 @@ DROP TABLE IF EXISTS `departamentos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `departamentos` (
-  `codDepto` varchar(4) COLLATE utf8_bin NOT NULL,
-  `nombreDpto` varchar(20) COLLATE utf8_bin NOT NULL,
-  `ciudad` varchar(15) COLLATE utf8_bin DEFAULT NULL,
-  `codDirector` varchar(12) COLLATE utf8_bin DEFAULT NULL,
+  `codDepto` varchar(4)  NOT NULL,
+  `nombreDpto` varchar(20)  NOT NULL,
+  `ciudad` varchar(15)  DEFAULT NULL,
+  `codDirector` varchar(12)  DEFAULT NULL,
   PRIMARY KEY (`codDepto`),
   KEY `FK_EmpDir` (`codDirector`),
   CONSTRAINT `FK_EmpDir` FOREIGN KEY (`codDirector`) REFERENCES `empleados` (`jefeID`)
@@ -65,16 +65,16 @@ DROP TABLE IF EXISTS `empleados`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `empleados` (
-  `nDIEmp` varchar(12) COLLATE utf8_bin NOT NULL,
-  `nomEmp` varchar(30) COLLATE utf8_bin NOT NULL,
-  `sexEmp` char(1) COLLATE utf8_bin NOT NULL,
+  `nDIEmp` varchar(12)  NOT NULL,
+  `nomEmp` varchar(30)  NOT NULL,
+  `sexEmp` char(1)  NOT NULL,
   `fecNac` date NOT NULL,
   `fecIncorporacion` date NOT NULL,
   `salEmp` float NOT NULL,
   `comisionE` float NOT NULL,
-  `cargoE` varchar(15) COLLATE utf8_bin NOT NULL,
-  `jefeID` varchar(12) COLLATE utf8_bin DEFAULT NULL,
-  `codDepto` varchar(4) COLLATE utf8_bin NOT NULL,
+  `cargoE` varchar(15) NOT NULL,
+  `jefeID` varchar(12)  DEFAULT NULL,
+  `codDepto` varchar(4)  NOT NULL,
   PRIMARY KEY (`nDIEmp`),
   KEY `FK_Empl` (`jefeID`),
   KEY `FK_Dpto` (`codDepto`),
