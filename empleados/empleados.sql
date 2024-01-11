@@ -1,5 +1,5 @@
 DROP database IF EXISTS empleados;
-CREATE database empleados DEFAULT CHARACTER SET utf8mb4 collate utf8mb4_unicode_ci;
+CREATE database empleados DEFAULT CHARACTER SET utf8mb4 collate utf8mb4_0900_ai_ci ;
 USE empleados;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
