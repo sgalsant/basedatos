@@ -33,7 +33,7 @@ CREATE TABLE `departamentos` (
   PRIMARY KEY (`codDepto`),
   KEY `FK_EmpDir` (`codDirector`),
   CONSTRAINT `FK_EmpDir` FOREIGN KEY (`codDirector`) REFERENCES `empleados` (`jefeID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -80,7 +80,7 @@ CREATE TABLE `empleados` (
   KEY `FK_Dpto` (`codDepto`),
   CONSTRAINT `FK_Dpto` FOREIGN KEY (`codDepto`) REFERENCES `departamentos` (`codDepto`),
   CONSTRAINT `FK_Empl` FOREIGN KEY (`jefeID`) REFERENCES `empleados` (`nDIEmp`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=InnoDB;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
