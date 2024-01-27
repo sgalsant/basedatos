@@ -1,9 +1,9 @@
  drop 
- DATABASE IF EXISTS TalleresFaber;
+ DATABASE IF EXISTS tallerfaber;
 
-CREATE DATABASE TalleresFaber;
+CREATE DATABASE tallerfaber;
 
-USE TalleresFaber;
+USE tallerfaber;
 
 CREATE TABLE clientes (
 CodCliente VARCHAR(5) NOT NULL,
