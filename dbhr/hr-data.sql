@@ -1,4 +1,4 @@
-USE hr;
+USE dbhr;
 
 /*Data for the table regions */
 
