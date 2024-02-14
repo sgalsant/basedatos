@@ -211,6 +211,7 @@ INSERT INTO asignatura VALUES (80, 'Biotecnología vegetal', 6, 'obligatoria', 3
 INSERT INTO asignatura VALUES (81, 'Genómica y proteómica', 4.5, 'obligatoria', 3, 2, NULL, 7);
 INSERT INTO asignatura VALUES (82, 'Procesos biotecnológicos', 6, 'obligatoria', 3, 2, NULL, 7);
 INSERT INTO asignatura VALUES (83, 'Técnicas instrumentales avanzadas', 4.5, 'obligatoria', 3, 2, NULL, 7);
+INSERT INTO asignatura VALUES (84, 'Técnicas instrumentales avanzadas 2', 4.5, 'obligatoria', 3, 2, NULL, 7);
 
 /* Curso escolar */
 INSERT INTO curso_escolar VALUES (1, 2014, 2015);
