@@ -1,29 +1,7 @@
-use pokemondb;
+DROP SCHEMA IF EXISTS `pokemon` ;
+CREATE SCHEMA IF NOT EXISTS `pokemon` DEFAULT CHARACTER SET utf8mb4;
 
-/*Borrado de tablas*/
-
-drop table if exists MO;
-drop table if exists MT;
-drop table if exists nivel_aprendizaje;
-drop table if exists pokemon_tipo;
-drop table if exists piedra;
-drop table if exists tipo_piedra;
-drop table if exists nivel_evolucion;
-drop table if exists pokemon_movimiento_forma;
-drop table if exists pokemon_forma_evolucion;
-drop table if exists forma_evolucion;
-drop table if exists tipo_evolucion;
-drop table if exists forma_aprendizaje;
-drop table if exists tipo_forma_aprendizaje;
-drop table if exists movimiento_efecto_secundario;
-drop table if exists efecto_secundario;
-drop table if exists movimiento;
-drop table if exists tipo;
-drop table if exists tipo_ataque;
-drop table if exists tipo_forma_aprendizaje;
-drop table if exists estadisticas_base;
-drop table if exists evoluciona_de;
-drop table if exists pokemon;
+use `pokemon`;
 
 /*Tablas*/
 
